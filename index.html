@@ -1,1 +1,97 @@
-Hello
+<html>
+
+<head>
+    <title>Karoshi Systems</title>
+    <style>
+        /* Add some style to make the website look sleek and minimalistic */
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #aaaaaa;
+            background-image: linear-gradient(to right, #fafafa, #eee);
+            background-size: 200% 100%;
+            background-position: right bottom;
+            animation: animatedBackground 10s linear infinite;
+        }
+
+        @keyframes animatedBackground {
+            0% {
+                background-position: left top;
+            }
+
+            50% {
+                background-position: right bottom;
+            }
+
+            100% {
+                background-position: left top;
+            }
+        }
+
+        .logo {
+            width: 300px;
+            height: 300px;
+            margin-bottom: 20px;
+        }
+
+        .description {
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            margin-top: -20px;
+        }
+
+        h3 {
+            margin-top: -20px;
+        }
+
+        .button {
+            display: inline-block;
+            border: none;
+            border-radius: 4px;
+            background-color: #000;
+            color: #fff;
+            padding: 12px 24px;
+            font-size: 16px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background-color 0.2s;
+        }
+
+        .button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img src="images/KaroshiLogoBlack.svg" class="logo" alt="Karoshi Systems logo">
+        <h1>Karoshi Systems</h1>
+        <h3>Developed with care</h2>
+            <div class="description">
+                <p>At Karoshi Systems, we specialize in developing financial software and marketing solutions that help
+                    businesses streamline their operations and increase their efficiency. Our team of experts is
+                    dedicated
+                    to providing high-quality solutions that are tailored to meet the specific needs of each individual
+                    client. We are committed to delivering the best possible results, and our solutions are always
+                    developed
+                    with care and attention to detail.</p>
+            </div>
+            <a href="https://github.com/Karoshi-Systems" class="button">Check out our work</a>
+    </div>
+</body>
+
+</html>
